@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="676" viewBox="0 0 880 676" role="img" aria-labelledby="title desc">
+<title id="title">CrossTL coverage over time per language and direction</title>
+<desc id="desc">CUDA output 98.5 %; CUDA input 84.9 %; GLSL output 93.9 %; GLSL input 96.0 %; HIP output 98.8 %; HIP input 88.7 %; HLSL output 97.6 %; HLSL input 94.1 %; Metal output 92.1 %; Metal input 91.3 %; Mojo output 0.0 %; Mojo input 0.0 %; OpenCL C input 49.7 %; Rust output 0.0 %; Rust input 0.0 %; Slang output 78.6 %; Slang input 70.3 %; SPIR-V output 95.9 %; SPIR-V input 92.0 %; WebGL output 99.7 %; WGSL output 85.1 %; CrossGL IR 83.9 %</desc>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;font-size:13px}
+.bg{fill:#ffffff;stroke:#d0d7de}.t{fill:#1f2328}.m{fill:#59636e}.track{fill:#eff2f5}
+path{fill:none;stroke:currentColor;stroke-width:1.5}circle{fill:currentColor}
+.output{color:#0969da}.input{color:#8250df}.ir{color:#1a7f37}
+@media (prefers-color-scheme:dark){.bg{fill:#0d1117;stroke:#3d444d}.t{fill:#f0f6fc}.m{fill:#9198a1}\
+.track{fill:#262c36}.output{color:#4493f8}.input{color:#ab7df8}.ir{color:#3fb950}}</style>
+<rect x="0.5" y="0.5" width="879" height="675" rx="6" class="bg"/>
+<text x="20" y="30" class="t">CrossTL coverage trend</text>
+<text x="860" y="30" class="m" text-anchor="end">1 run</text>
+<text x="190" y="48" class="m">2026-11-20</text>
+<text x="530" y="48" class="m" text-anchor="end">2026-11-20</text>
+<text x="20" y="74" class="t">CUDA</text>
+<text x="100" y="74" class="m">output</text>
+<rect x="190" y="58" width="340" height="18" rx="2" class="track"/>
+<g class="output">
+<circle cx="530" cy="58.3" r="2"/>
+</g>
+<text x="540" y="74" class="t">98.5 %</text>
+<text x="600" y="74" class="m"></text>
+<text x="100" y="100" class="m">input</text>
+<rect x="190" y="84" width="340" height="18" rx="2" class="track"/>
+<g class="input">
+<circle cx="530" cy="86.7" r="2"/>
+</g>
+<text x="540" y="100" class="t">84.9 %</text>
+<text x="600" y="100" class="m"></text>
+<text x="20" y="126" class="t">GLSL</text>
+<text x="100" y="126" class="m">output</text>
+<rect x="190" y="110" width="340" height="18" rx="2" class="track"/>
+<g class="output">
+<circle cx="530" cy="111.1" r="2"/>
+</g>
+<text x="540" y="126" class="t">93.9 %</text>
+<text x="600" y="126" class="m"></text>
+<text x="100" y="152" class="m">input</text>
+<rect x="190" y="136" width="340" height="18" rx="2" class="track"/>
+<g class="input">
+<circle cx="530" cy="136.7" r="2"/>
+</g>
+<text x="540" y="152" class="t">96.0 %</text>
+<text x="600" y="152" class="m"></text>
+<text x="20" y="178" class="t">HIP</text>
+<text x="100" y="178" class="m">output</text>
+<rect x="190" y="162" width="340" height="18" rx="2" class="track"/>
+<g class="output">
+<circle cx="530" cy="162.2" r="2"/>
+</g>
+<text x="540" y="178" class="t">98.8 %</text>
+<text x="600" y="178" class="m"></text>
+<text x="100" y="204" class="m">input</text>
+<rect x="190" y="188" width="340" height="18" rx="2" class="track"/>
+<g class="input">
+<circle cx="530" cy="190" r="2"/>
+</g>
+<text x="540" y="204" class="t">88.7 %</text>
+<text x="600" y="204" class="m"></text>
+<text x="20" y="230" class="t">HLSL</text>
+<text x="100" y="230" class="m">output</text>
+<rect x="190" y="214" width="340" height="18" rx="2" class="track"/>
+<g class="output">
+<circle cx="530" cy="214.4" r="2"/>
+</g>
+<text x="540" y="230" class="t">97.6 %</text>
+<text x="600" y="230" class="m"></text>
+<text x="100" y="256" class="m">input</text>
+<rect x="190" y="240" width="340" height="18" rx="2" class="track"/>
+<g class="input">
+<circle cx="530" cy="241.1" r="2"/>
+</g>
+<text x="540" y="256" class="t">94.1 %</text>
+<text x="600" y="256" class="m"></text>
+<text x="20" y="282" class="t">Metal</text>
+<text x="100" y="282" class="m">output</text>
+<rect x="190" y="266" width="340" height="18" rx="2" class="track"/>
+<g class="output">
+<circle cx="530" cy="267.4" r="2"/>
+</g>
+<text x="540" y="282" class="t">92.1 %</text>
+<text x="600" y="282" class="m"></text>
+<text x="100" y="308" class="m">input</text>
+<rect x="190" y="292" width="340" height="18" rx="2" class="track"/>
+<g class="input">
+<circle cx="530" cy="293.6" r="2"/>
+</g>
+<text x="540" y="308" class="t">91.3 %</text>
+<text x="600" y="308" class="m"></text>
+<text x="20" y="334" class="t">Mojo</text>
+<text x="100" y="334" class="m">output</text>
+<rect x="190" y="318" width="340" height="18" rx="2" class="track"/>
+<g class="output">
+<circle cx="530" cy="336" r="2"/>
+</g>
+<text x="540" y="334" class="t">0.0 %</text>
+<text x="600" y="334" class="m"></text>
+<text x="100" y="360" class="m">input</text>
+<rect x="190" y="344" width="340" height="18" rx="2" class="track"/>
+<g class="input">
+<circle cx="530" cy="362" r="2"/>
+</g>
+<text x="540" y="360" class="t">0.0 %</text>
+<text x="600" y="360" class="m"></text>
+<text x="20" y="386" class="t">OpenCL C</text>
+<text x="100" y="386" class="m">input</text>
+<rect x="190" y="370" width="340" height="18" rx="2" class="track"/>
+<g class="input">
+<circle cx="530" cy="379.1" r="2"/>
+</g>
+<text x="540" y="386" class="t">49.7 %</text>
+<text x="600" y="386" class="m"></text>
+<text x="20" y="412" class="t">Rust</text>
+<text x="100" y="412" class="m">output</text>
+<rect x="190" y="396" width="340" height="18" rx="2" class="track"/>
+<g class="output">
+<circle cx="530" cy="414" r="2"/>
+</g>
+<text x="540" y="412" class="t">0.0 %</text>
+<text x="600" y="412" class="m"></text>
+<text x="100" y="438" class="m">input</text>
+<rect x="190" y="422" width="340" height="18" rx="2" class="track"/>
+<g class="input">
+<circle cx="530" cy="440" r="2"/>
+</g>
+<text x="540" y="438" class="t">0.0 %</text>
+<text x="600" y="438" class="m"></text>
+<text x="20" y="464" class="t">Slang</text>
+<text x="100" y="464" class="m">output</text>
+<rect x="190" y="448" width="340" height="18" rx="2" class="track"/>
+<g class="output">
+<circle cx="530" cy="451.9" r="2"/>
+</g>
+<text x="540" y="464" class="t">78.6 %</text>
+<text x="600" y="464" class="m"></text>
+<text x="100" y="490" class="m">input</text>
+<rect x="190" y="474" width="340" height="18" rx="2" class="track"/>
+<g class="input">
+<circle cx="530" cy="479.3" r="2"/>
+</g>
+<text x="540" y="490" class="t">70.3 %</text>
+<text x="600" y="490" class="m"></text>
+<text x="20" y="516" class="t">SPIR-V</text>
+<text x="100" y="516" class="m">output</text>
+<rect x="190" y="500" width="340" height="18" rx="2" class="track"/>
+<g class="output">
+<circle cx="530" cy="500.7" r="2"/>
+</g>
+<text x="540" y="516" class="t">95.9 %</text>
+<text x="600" y="516" class="m"></text>
+<text x="100" y="542" class="m">input</text>
+<rect x="190" y="526" width="340" height="18" rx="2" class="track"/>
+<g class="input">
+<circle cx="530" cy="527.4" r="2"/>
+</g>
+<text x="540" y="542" class="t">92.0 %</text>
+<text x="600" y="542" class="m"></text>
+<text x="20" y="568" class="t">WebGL</text>
+<text x="100" y="568" class="m">output</text>
+<rect x="190" y="552" width="340" height="18" rx="2" class="track"/>
+<g class="output">
+<circle cx="530" cy="552.1" r="2"/>
+</g>
+<text x="540" y="568" class="t">99.7 %</text>
+<text x="600" y="568" class="m"></text>
+<text x="20" y="594" class="t">WGSL</text>
+<text x="100" y="594" class="m">output</text>
+<rect x="190" y="578" width="340" height="18" rx="2" class="track"/>
+<g class="output">
+<circle cx="530" cy="580.7" r="2"/>
+</g>
+<text x="540" y="594" class="t">85.1 %</text>
+<text x="600" y="594" class="m"></text>
+<text x="20" y="620" class="t">CrossGL IR</text>
+<text x="100" y="620" class="m">expressive</text>
+<rect x="190" y="604" width="340" height="18" rx="2" class="track"/>
+<g class="ir">
+<circle cx="530" cy="606.9" r="2"/>
+</g>
+<text x="540" y="620" class="t">83.9 %</text>
+<text x="600" y="620" class="m"></text>
+<text x="20" y="662" class="m">Score per published run, on a 0 to 100 % scale.</text>
+</svg>
